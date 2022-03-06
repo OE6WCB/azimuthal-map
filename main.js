@@ -26,7 +26,7 @@ register(proj4);
 var source_WU =
   new VectorSource({
     format: new GeoJSON(),
-    attributions: ['naturalearthdata'],
+    attributions: ['Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.'],
     loader: function(extent, resolution, projection) {
       var url = 'data.geojson';
       var xhr = new XMLHttpRequest();
