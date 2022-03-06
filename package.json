@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "rm -rf docs & vite build && mv dist docs",
     "serve": "vite preview"
   },
   "devDependencies": {
